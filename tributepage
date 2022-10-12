@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Bob Burnquist tribute page</title>
+    </head>
+    <body>
+      <main id="main">
+        <h1 id="title">Bob Burnquist</h1>
+        <div id="img-div">
+          <figure>
+          <img src="https://www.jenkemmag.com/home/wp-content/uploads/2018/04/Bob-Backside-Stalefish_BrianFick.jpg" id="image" alt="Bob Burnquist doing a trick called stalefish high in the air">
+          <figcaption id="img-caption">Blasting a backside stalefish on his megaramp</figcaption>
+          </figure>
+          <section>
+          <p id="tribute-info"><q>An X Games legend, Bob has the most medals in the event's history, with 30. His 14 gold are one shy of Shaun White's all-time XG record. As of Austin 2016, he's the only person to compete at every X Games summer event. The 40-year-old is the defending Big Air champ and still going strong; he's favored to earn his 8th Big Air gold, and he's also in Vert. His private mega ramp at his compound is open to other skaters, but he remains far ahead of the pack. Bob loves to fly, including fixed wing, wingsuit, helicopters and now drones. His two daughters are on two continents, and he splits his time between the two.</q></p>
+          <cite>http://www.xgames.com/athletes/3012830/bob-burnquist</cite>
+          </section>
+  <section>
+    <p>To read some more on Bob Burnquist click this link:<a href="https://en.wikipedia.org/wiki/Bob_Burnquist" target="_blank" id="tribute-link"> Bob Burnquist's wikipedia page</a>
+    </section>
+
+          </div>
+        </main>
+      </body>
+  <html>
+
+CSS
+
+#image{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
