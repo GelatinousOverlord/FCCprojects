@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Survey form </title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Survey form</h1>
+      <p id="description">Test out my first survey form</p>
+      
+      <form id="survey-form">
+        <fieldset id="first3">
+        <label id="name-label">What kind of a name is______?<div><input id="name" type="text" required placeholder="your name"></div>
+        </input></label><br>
+     <label id="email-label">Where can I send spam to?<div><input type="email" id="email" placeholder="email" required></input></div></label><br>
+     <label id="number-label">Are you balding yet? <div><input type="number" id="number" min="13" max="130" placeholder="age"><div></label></fieldset>
+    <fieldset><label for="dropdown">Do you think this dropdown is necessary<select id="dropdown"> 
+       <option value="">(select one)</option>
+       <option value="1">not particularly</option>
+       <option value="2">who cares?</option>
+       <option value="3">I love dropdown thingies</option>
+       </select></label> <br>
+       <p>Do you like circular buttons?</p>
+       <label for="matter"><input type="radio" id="matter" name="circular" value="4">Why would it matter?</label><br>
+       <label for="radio"><input type="radio" id="must" name="circular" value="5">There must be circular buttons</label><br>
+       </fieldset>
+       <fieldset>
+         <p>Its hard to come up with content for this survey <br>(select all that apply)</p>
+        <label>
+           <input type="checkbox" value="6">I could do it easily</input></label><br>
+           <label>
+           <input type="checkbox" value="7">Maybe you're just a moron</input></label><br>
+           <label>
+           <input type="checkbox" value="8">Why are you wasting my time?</input></label><br>
+           <label>
+           <input type="checkbox" value="9">This is so dumb</input></label><br>
+           <textarea>What should I make a survey form about in the future?</textarea>
+           
+         
+         </fieldset>
+       <input id="submit" type="submit" value="Submit">
+         
+        </form>
+      </body>
+  </html>
+
+CSS
+
+h1{
+  margin: center;
+  width: 300px;
+}
+label {
+  display: inline;
+  margin: auto;
+}
+Body{
+  background-color: #aaaa99;
+  width: 100%;
+  margin: auto;
+  font-family: fantasy;
+}
+
+Fieldset{
+  border: 0;
+  margin: Auto;
+}
+head{
+  margin: auto;
+}
+input[type="submit"]{
+  margin: 15px;
+  width: 40%;
+}
+#name, #email, #number{
+  display: block;
+}
+
+div{
+  text-align: center;
+}
