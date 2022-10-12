@@ -1,0 +1,112 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="header">Skateboards that last<img src="https://www.skatedeluxe.com/blog/wp-content/uploads/2020/07/santa-cruz-vx-technology.png" id="header-img" alt="skateboard ply technology">
+        
+
+      <nav id="nav-bar">
+        <ul>
+                    <a href="#learn-more" class="nav-link"><li>Learn more</li></a> 
+                    <a href="#buy-products" class="nav-link"><li>Buy products</li></a>
+
+  <a href="#contact" class="nav-link"><li>Contact us</li></a>
+          </ul>
+          </nav>
+</header>
+<div class="main-section">
+<article class="technology">
+  <header id="learn-more"> About VX technology </header>
+ <div class="flexitems">
+   <div class="flex1"
+ <p> Santa Cruz Skateboards VX™ decks are thinner, stronger, and have more pop than standard 7 ply decks featuring 5 plies of North American Maple and 2 layers of Quad X technology.<p></div>
+ <div class="flex2"  <p>The Santa Cruz VX technology is designed to improve durability, reduce weight and give you more long-lasting pop on your skateboard deck. Five layers of North American hard rock maple are combined for this with two layers of patented Santa Cruz Quad X technology material; a special composite in which fiberglass and carbon fiber are vertically heathbonded. These layers are thinner, but more resilient than regular wood. </p>
+   </div>
+   </div>
+</article>
+<article>
+  <iframe src="https://youtu.be/58VdE4A_kGA" title="vx technology" id="video"></iframe>
+  </article>
+
+<article>
+  <header id="buy-products">Buy Products</header>
+  <p>You can find this product and others on <a href="https://nhsskatedirect.com/collections/santa-cruz-vx-skateboard-decks">santa cruz's website</a>
+    </p>
+  </article>
+  
+  <article>
+    <header id="contact">Contact us</header>
+    
+    <p>Let us know if theres any improvements you'd like to see on the website</p>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <input type="email" placeholder="email" name="email" id="email"></input>
+    <input type="submit" value="submit" id="submit"></input>
+    </form>
+    </article>
+    </div>
+
+        </nav>
+
+      </body>
+  </html>
+
+CSS
+
+#header {
+  width: 100%;
+  height: 500px;
+  font-weight: bold;
+  font-size: 25;
+  position: fixed;
+  display: inline-block;
+  background-color: #fffff9;
+  
+}
+#nav-bar{
+  position: fixed;
+}
+
+
+article{
+  padding-top: 20px;
+  
+}
+
+.main-section{
+  height: 750px;
+}
+
+.technology {
+  padding-top: 750px;
+}
+
+.flexitems {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex1 {
+  width: 400px;
+  padding-right: 30px;
+}
+
+.flex2 {
+  width: 400px;
+}
+
+@media screen and (max-width: 1000px)
+{
+  
+  }
+  #header-img{
+    height: 300px;
+    width: 550px;
+    object-fit: cover;
+  }
+}
